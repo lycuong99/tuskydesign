@@ -2,15 +2,5 @@
   "extends": "./tsconfig.base.json",
   "compileOnSave": false,
   "files": [],
-  "references": [
-    {
-      "path": "./packages/animals"
-    },
-    {
-      "path": "./packages/names"
-    },
-    {
-      "path": "./packages/zoo"
-    }
-  ]
+  "references": [{"path":"./packages/animals"},{"path":"./packages/names"},{"path":"./packages/zoo"},{"path":"./packages/util"},{"path":"./packages/util2"}]
 }
