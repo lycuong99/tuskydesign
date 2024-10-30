@@ -1,11 +1,15 @@
 {
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "targetDefaults": {
-    "serve":{
-      "dependsOn": ["build"]
+    "serve": {
+      "dependsOn": [
+        "build"
+      ]
     },
     "build": {
-      "dependsOn": ["^build"],
+      "dependsOn": [
+        "^build"
+      ],
       "cache": true
     },
     "typecheck": {
@@ -26,5 +30,6 @@
         }
       }
     }
-  ]
+  ],
+  "nxCloudId": "6721a411c59c13b954610651"
 }
